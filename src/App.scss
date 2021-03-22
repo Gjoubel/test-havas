@@ -1,0 +1,74 @@
+@import './Starjedi.ttf';
+
+body {
+  padding: 1rem 0;
+  background-color:	#272b30;
+}
+
+.main-title {
+  text-align: center;
+  color: #FFE300;
+  font-family: 'Starjedi';
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.container-informations {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-people {
+  margin: 2rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.75rem;
+  height: 15rem;
+  width: 15rem;
+  border: 1px solid #c8c8c8;
+}
+.container-search {
+  display: flex;
+  justify-content: center;
+}
+
+.container-information {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.button-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #32383e;
+  color: white;
+  font-family: 'Starjedi';
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.5rem;
+}
+
+.properties-title {
+  color: #c8c8c8;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.name {
+  color: #FFE81F;
+  font-family: 'Starjedi';
+}
+
+.properties {
+  color: white;
+}
